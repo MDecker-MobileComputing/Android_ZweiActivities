@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8030FF00"
+    android:orientation="vertical"
+    tools:context=".Activity2">
+
+    <EditText
+        android:id="@+id/editTextAufActivity2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Hier Text eingeben"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/buttonAufActivity2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gehe zu Activity 1" />
+
+</LinearLayout>
+
+
