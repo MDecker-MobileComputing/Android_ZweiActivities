@@ -18,8 +18,15 @@ import android.widget.TextView;
 public class Activity2 extends Activity
                        implements View.OnClickListener {
 
+    /** UI-Element zur Anzeige von Text, der auf der anderen Activity eingegeben wurde. */
     protected TextView _textView = null;
 
+
+    /**
+     * In dieser Methode wird u.a. auch der Intent ausgelesen, mit dem die Activity
+     * aufgerufen wurde. Aus diesem Intent kann das Key-Value-Pair mit dem auf
+     * Activity1 eingegebenen Text ausgelesen werden.
+     */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
