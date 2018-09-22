@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.TextView;
 
 /**
@@ -14,12 +15,14 @@ import android.widget.TextView;
  *
  * This project is licensed under the terms of the BSD 3-Clause License.
  */
-
 public class Activity2 extends Activity
                        implements View.OnClickListener {
 
-    /** UI-Element zur Anzeige von Text, der auf der anderen Activity eingegeben wurde. */
+    /** UI-Element zur Anzeige von Text, der auf Activity1 eingegeben wurde. */
     protected TextView _textView = null;
+
+    /** UI-Element für Eingabe von Text, der an Activity1 zurückgegeben werden soll. */
+    protected EditText _editText = null;
 
 
     /**
@@ -33,6 +36,8 @@ public class Activity2 extends Activity
         setContentView(R.layout.activity_2);
 
         _textView = findViewById(R.id.textViewAufActivity2);
+
+        _editText = findViewById(R.id.editTextAufActivity2);
 
         Button button = findViewById(R.id.buttonAufActivity2);
         button.setOnClickListener(this);
@@ -54,6 +59,14 @@ public class Activity2 extends Activity
      */
     @Override
     public void onClick(View view) {
+
+        String textToTransfer = _editText.getText().toString();
+
+        Intent intent = new Intent();
+        intent.putExtra("data_von_2_zu_1", textToTransfer);
+        setResult(RESULT_OK, intent);
+        //setResult(RESULT_CANCELED, intent);
+
         finish();
     }
 
