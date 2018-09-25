@@ -3,6 +3,7 @@ package de.mide.zweiactivities;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -32,8 +33,11 @@ public class Activity2 extends Activity
      */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        //Log.i("ZweiActivities", "Intent empfangen");
         super.onCreate(savedInstanceState);
+
         setContentView(R.layout.activity_2);
+
 
         _textView = findViewById(R.id.textViewAufActivity2);
 
