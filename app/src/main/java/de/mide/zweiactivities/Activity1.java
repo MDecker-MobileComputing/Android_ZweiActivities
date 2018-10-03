@@ -46,8 +46,7 @@ public class Activity1 extends Activity
 
 
     /**
-     * Button-Event-Handler-Methode.
-     * Es wird zu Activity2 gesprungen.
+     * Button-Event-Handler-Methode. Es wird zu Activity2 gesprungen.
      *
      * @param view Button, der Event ausgelöst hat.
      */
@@ -57,8 +56,8 @@ public class Activity1 extends Activity
 
         // String in Variable textToTransfer als "Extra"
         // für die Empfänger-Activity mitgeben.
-        String textToTransfer = _editText.getText().toString();
-        intent.putExtra("data_von_1_zu_2", textToTransfer);
+        String derText = _editText.getText().toString();
+        intent.putExtra("data_von_1_zu_2", derText);
 
         //startActivity(intent);
         startActivityForResult(intent, 123);

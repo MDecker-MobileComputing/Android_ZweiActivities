@@ -64,10 +64,10 @@ public class Activity2 extends Activity
     @Override
     public void onClick(View view) {
 
-        String textToTransfer = _editText.getText().toString();
+        String derText = _editText.getText().toString();
 
         Intent intent = new Intent();
-        intent.putExtra("data_von_2_zu_1", textToTransfer);
+        intent.putExtra("data_von_2_zu_1", derText);
         setResult(RESULT_OK, intent);
         //setResult(RESULT_CANCELED, intent);
 
