@@ -56,8 +56,7 @@ public class Activity2 extends Activity
 
 
     /**
-     * Button-Event-Handler-Methode.
-     * Es wird zur Activity1 zurückgesprungen.
+     * Button-Event-Handler-Methode: Es wird zur Activity1 zurückgesprungen.
      *
      * @param view Button, der Event ausgelöst hat.
      */

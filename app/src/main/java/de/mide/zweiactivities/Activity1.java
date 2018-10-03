@@ -88,8 +88,8 @@ public class Activity1 extends Activity
             return;
         }
 
-        String textReceived = intent.getStringExtra("data_von_2_zu_1");
-        _textView.setText(textReceived);
+        String textEmpfangen = intent.getStringExtra("data_von_2_zu_1");
+        _textView.setText(textEmpfangen);
     }
 
 }
