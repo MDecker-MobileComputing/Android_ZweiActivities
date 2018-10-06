@@ -5,6 +5,12 @@ of the same app.
 
 <br>
 
+See also [this app project](https://github.com/MDecker-MobileComputing/Android_DreiActivities)
+on how to call different activities and determine in the callback method which of the called
+activities was finished.
+
+<br>
+
 Identifiers (names for classes, variables and methods), UI texts and comments are in German only.
 
 <br>
