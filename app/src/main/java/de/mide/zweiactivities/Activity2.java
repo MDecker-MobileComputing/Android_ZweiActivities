@@ -9,6 +9,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
+
 /**
  * Zweite Activity der App, wird von erster Activity mit einem
  * explizitem Intent geöffnet.
