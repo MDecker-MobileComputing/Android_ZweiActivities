@@ -34,7 +34,7 @@ public class Activity2 extends Activity
      */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        //Log.i("ZweiActivities", "Intent empfangen");
+
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.activity_2);

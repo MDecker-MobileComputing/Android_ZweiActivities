@@ -32,6 +32,7 @@ public class Activity1 extends Activity
      */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_1);
 
@@ -51,6 +52,7 @@ public class Activity1 extends Activity
      */
     @Override
     public void onClick(View view) {
+
         Intent intent = new Intent(this, Activity2.class);
 
         // String in Variable textToTransfer als "Extra"
