@@ -85,6 +85,7 @@ public class Activity1 extends Activity
     protected void onActivityResult(int requestCode, int resultCode, Intent intent) {
 
         if (resultCode != RESULT_OK) {
+
             _textView.setText("Activity 2 wurde abgebrochen");
             return;
         }
