@@ -48,8 +48,7 @@ public class Activity2 extends Activity
         Button button = findViewById(R.id.buttonAufActivity2);
         button.setOnClickListener(this);
 
-        // Auslesen von String, der von Activity 1 als "Extra"
-        // mitgegeben wurde
+        // Auslesen von String, der von Activity 1 als "Extra" mitgegeben wurde.
         Intent intent = getIntent();
         String textVonActivity1 = intent.getStringExtra("data_von_1_zu_2");
 
