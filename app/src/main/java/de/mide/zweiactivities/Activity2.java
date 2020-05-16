@@ -19,8 +19,7 @@ import android.widget.TextView;
  */
 public class Activity2 extends Activity
                        implements View.OnClickListener {
-
-
+    
     /** UI-Element zur Anzeige von Text, der auf Activity1 eingegeben wurde. */
     protected TextView _textView = null;
 
@@ -37,9 +36,7 @@ public class Activity2 extends Activity
     protected void onCreate(Bundle savedInstanceState) {
 
         super.onCreate(savedInstanceState);
-
         setContentView(R.layout.activity_2);
-
 
         _textView = findViewById(R.id.textViewAufActivity2);
 
