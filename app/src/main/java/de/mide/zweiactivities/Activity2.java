@@ -19,7 +19,7 @@ import android.widget.TextView;
  */
 public class Activity2 extends Activity
                        implements View.OnClickListener {
-    
+
     /** UI-Element zur Anzeige von Text, der auf Activity1 eingegeben wurde. */
     protected TextView _textView = null;
 
