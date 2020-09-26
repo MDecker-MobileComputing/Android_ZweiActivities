@@ -28,15 +28,15 @@ public class Activity2 extends Activity
 
 
     /**
-     * In dieser Methode wird u.a. auch der Intent ausgelesen, mit dem die Activity
-     * aufgerufen wurde. Aus diesem Intent kann das Key-Value-Pair mit dem auf
-     * Activity1 eingegebenen Text ausgelesen werden.
+     * Lifecycle-Methode zur Initialisierung des Activity-Objekts.
      */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_2);
+
+        setTitle(R.string.titel_activity_2);
 
         _textView = findViewById(R.id.textViewAufActivity2);
 

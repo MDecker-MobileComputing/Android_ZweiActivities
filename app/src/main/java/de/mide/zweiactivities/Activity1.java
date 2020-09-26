@@ -26,15 +26,15 @@ public class Activity1 extends Activity
 
 
     /**
-     * Nach Laden der Layout-Datei und Füllen der Member-Variablen mit Referenzen auf UI-Elemente
-     * wird noch die Activity-Instanz selbst ("this") als Event-Handler für den Button
-     * registriert.
+     * Lifecycle-Methode zur Initialisierung des Activity-Objekts.
      */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_1);
+
+        setTitle(R.string.titel_activity_1);
 
         _editText = findViewById(R.id.editTextAufActivity1);
 

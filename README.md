@@ -1,4 +1,4 @@
-# Android-App "Zwei Activities" (Two Activities)
+# Android-App "Zwei Activities" (Two Activities) #
 
 App demonstrates how to use an **explicit intent** to go from one activity to another activity
 of the same app.
@@ -16,7 +16,7 @@ Identifiers (names for classes, variables and methods), UI texts and comments ar
 <br>
 
 ----
-## Screenshots
+## Screenshots ##
 
 ![Screenshot 1](screenshot_1.png)  ![Screenshot 2](screenshot_2.png)
 
@@ -24,6 +24,6 @@ Identifiers (names for classes, variables and methods), UI texts and comments ar
 <br>
 
 ----
-# License
+# License #
 
 See the [LICENSE file](LICENSE.md) for license rights and limitations (BSD 3-Clause License).
