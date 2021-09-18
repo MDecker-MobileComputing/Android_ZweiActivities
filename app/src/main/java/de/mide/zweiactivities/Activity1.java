@@ -95,5 +95,3 @@ public class Activity1 extends Activity
     }
 
 }
-
-
