@@ -3,7 +3,6 @@ package de.mide.zweiactivities;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -18,7 +17,7 @@ import android.widget.TextView;
  * This project is licensed under the terms of the BSD 3-Clause License.
  */
 public class Activity2 extends Activity
-                       implements View.OnClickListener {
+        implements View.OnClickListener {
 
     /** UI-Element zur Anzeige von Text, der auf Activity1 eingegeben wurde. */
     protected TextView _textView = null;
@@ -72,9 +71,3 @@ public class Activity2 extends Activity
     }
 
 }
-
-
-
-
-
-
