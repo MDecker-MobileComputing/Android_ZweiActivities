@@ -16,7 +16,7 @@ import android.widget.TextView;
  * This project is licensed under the terms of the BSD 3-Clause License.
  */
 public class Activity1 extends Activity
-        implements View.OnClickListener {
+                       implements View.OnClickListener {
 
     /** UI-Elemente zur Eingabe von Text durch den Nutzer. */
     protected EditText _editText = null;
