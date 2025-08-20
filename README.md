@@ -1,15 +1,16 @@
-# Android-App "Zwei Activities" (Two Activities) #
+# Android-App "Zwei Activities" #
 
 <br>
 
-App demonstrates how to use an **explicit intent** to go from one activity to another activity
-of the same app.
+Dieses Repo enthält eine Android-Studio-Projekt für eine native Android-App mit Java.
+Die App demonstriert wie man **explizite Intents** benutzt, um von einer zu einer anderen
+Activity zu wechseln.
 
 <br>
 
-See also [this app project](https://github.com/MDecker-MobileComputing/Android_DreiActivities)
-on how to call different activities and determine in the callback method which of the called
-activities was finished.
+Sie auch [diese Android-App](https://github.com/MDecker-MobileComputing/Android_DreiActivities),
+die zeigt, wie man beim Rücksprung von einer über expliziten Intent aufgerufenen Activity
+erkennt, von welcher Activity der Rücksprung durchgeführt wurde.
 
 <br>
 
