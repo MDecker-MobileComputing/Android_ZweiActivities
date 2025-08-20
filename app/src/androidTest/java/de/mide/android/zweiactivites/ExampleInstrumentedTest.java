@@ -1,4 +1,4 @@
-package de.mide.zweiactivities;
+package de.mide.android.zweiactivites;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("de.mide.zweiactivities", appContext.getPackageName());
+        assertEquals("de.mide.android.zweiactivites", appContext.getPackageName());
     }
 }

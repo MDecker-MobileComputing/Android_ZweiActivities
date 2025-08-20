@@ -1,4 +1,4 @@
-package de.mide.zweiactivities;
+package de.mide.android.zweiactivites;
 
 import org.junit.Test;
 
