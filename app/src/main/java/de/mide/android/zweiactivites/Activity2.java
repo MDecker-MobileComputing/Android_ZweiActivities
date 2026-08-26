@@ -17,7 +17,7 @@ import android.widget.TextView;
  * This project is licensed under the terms of the BSD 3-Clause License.
  */
 public class Activity2 extends Activity
-        implements View.OnClickListener {
+                       implements View.OnClickListener {
 
     /** UI-Element zur Anzeige von Text, der auf Activity1 eingegeben wurde. */
     protected TextView _textView = null;
